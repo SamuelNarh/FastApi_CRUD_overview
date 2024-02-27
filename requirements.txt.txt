@@ -1,0 +1,9 @@
+//Installation
+pip install fastapi
+
+//Allow us to run our api on a web server
+pip install uvicorn
+
+
+uvicorn myapi:app --reload
+
